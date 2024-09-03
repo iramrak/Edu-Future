@@ -1,5 +1,5 @@
 <h1>SPA Edu Future</h1>
-<p>just made for portfolio</p><br>
+<p>just made for portfolio</p>
 <ul>
   <li>Next JS</li>
   <li>React</li>
