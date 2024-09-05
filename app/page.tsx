@@ -1,4 +1,5 @@
-import { AboutUs, CardSlider, Container , FirstCard, SecondCard, ThridCard, Banner} from "@/shared/components";
+import { AboutUs, CardSlider, Container , FirstCard, SecondCard, ThridCard, Banner, RevSlider, SectionSix, SectionSeven} from "@/shared/components";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,8 +25,25 @@ export default function Home() {
           <Banner />
         </section>
 
-        <section className="section__five">
-          {/*До делать СУКА !!!!*/}
+        {/*<section className="section__five">
+          <RevSlider />
+        </section>
+        */} 
+        <div className='section-six__title'>
+          <h1>Остались вопросы?</h1>    
+        </div>
+        <section className="section__six">
+          <SectionSix />
+        </section>
+
+        <div className="section-seven__title">
+            <h1>Наши последние статьи</h1>
+            <Link href={'#'}>
+              <p>ВСЕ СТАТЬИ</p>
+            </Link>
+        </div>
+        <section className="section__seven">
+          <SectionSeven />
         </section>
       </main>
     </Container>
