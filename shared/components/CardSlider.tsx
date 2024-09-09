@@ -16,13 +16,14 @@ export const CardSlider = () => {
   return (
     <>
     <div className="section-three__nav">
-        <h1 className="section-three__title"> {"{Популярные курсы}"} </h1>
+        <h1 className="section-three__title" id="section__three"> {"{Популярные курсы}"} </h1>
     </div>
     <Swiper
         slidesPerView={3}
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={20}
     >
+    <NavigationBtns />
     <SwiperSlide className="card__one">
         <div className="card-one__sub">
             <div className="card-one__date">
@@ -143,7 +144,7 @@ export const CardSlider = () => {
             </div>
         </div>
     </SwiperSlide>
-    <NavigationBtns />
+    
     </Swiper>
     </>
   );

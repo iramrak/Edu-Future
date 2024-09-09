@@ -9,7 +9,7 @@ export const AboutUs = () => {
   return (
     <>
         <div className="section-two__first">
-          <h1>Широкий выбор курсов <br /> и направлений</h1>
+          <p>Широкий выбор курсов <br /> и направлений</p>
           <Image 
           src={first}
           alt='pen'
@@ -17,7 +17,7 @@ export const AboutUs = () => {
           
         </div>
         <div className="section-two__second">
-          <h1>Современные технологии и методы обучения</h1>
+          <p>Современные технологии и методы обучения</p>
         </div>
         <div className="section-two__third">
           <Image 
@@ -31,17 +31,17 @@ export const AboutUs = () => {
             />
             <p>80%</p>
           </div>
-          <h1>Собственный уникальный сервис для удобного обучения</h1>
+          <p>Собственный уникальный сервис для удобного обучения</p>
         </div>
         <div className="section-two__fourth">
-          <h1>Профессиональные и знающие своего дела учителя</h1>
+          <p>Профессиональные и знающие своего дела учителя</p>
           <Image 
           src={man}
           alt='man'
           />
         </div>
         <div className="section-two__fifth">
-            <h1>Поддержка студентов на каждом этапе</h1>
+            <p>Поддержка студентов на каждом этапе</p>
             <Image 
             src={chat}
             alt='chat'

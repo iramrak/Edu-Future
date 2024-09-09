@@ -17,19 +17,19 @@ export const Header = () => {
             <nav className="header__nav">
                 <ul>
                     <li className="header-contact__link">
-                        <Link href='#'>О нас</Link>
+                        <Link href='#section__two'>О нас</Link>
                     </li>
                     <li className="header-contact__link">
-                        <Link href='#'>Курсы</Link>
+                        <Link href='#section__three'>Курсы</Link>
                     </li>
                     <li className="header-contact__link">
-                        <Link href='#'>Отзывы</Link>
+                        <Link href='#section__five'>Отзывы</Link>
                     </li>
                     <li className="header-contact__link">
-                        <Link href='#'>Вопросы</Link>
+                        <Link href='#section__six'>Вопросы</Link>
                     </li>
                     <li className="header-contact__link">
-                        <Link href='#'>Блог</Link>
+                        <Link href='#section__seven'>Блог</Link>
                     </li>
                 </ul>
                 <Link href="#">
